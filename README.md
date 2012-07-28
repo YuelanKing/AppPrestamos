@@ -7,6 +7,8 @@ en más detalle puedes revisar el [documento de ideas](https://github.com/Trisfe
 Status
 ------
 
+Pendiente...
+
 Cómo está estructurada la aplicación?
 -------------------------------------
 
@@ -31,6 +33,23 @@ En qué se van a desarrollar los Servicios?
 ------------------------------------------
 
 Vamos a estar trabajando con Node.js, pueden encontrar más información en su [sitio](http://nodejs.org/)
+
+Quieres correr este proyecto en tu máquina?
+-------------------------------------------
+
+Pendiente...
+
+Quieres colaborar?
+------------------
+
+Estos son los pasos a aseguir:
+
+- Haz un Fork
+- Clona el proyecto (que se encuentra en tu Fork) a tu máquina
+- Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
+- Haz un Pull Request para integrar tus cambios a este repositorio
+
+Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
 
 Tienes algún Bug o Feature Request?
 -----------------------------------
