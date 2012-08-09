@@ -1,9 +1,16 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.11"
-    , "jade": ">= 0.0.1"
+  "name": "app-prestamos-trisfera", 
+  "version": "0.1.0",
+  "description": "Aplicación para el manejo y recordatorio de préstamos",
+  "author": "Trisfera <info@trisfera.com>",
+  "url": "https://github.com/Trisfera/AppPrestamos",
+  "private": true, 
+  "dependencies": {
+    "mongoose": "3.0.0",
+    "connect-assets": "2.3.1",
+    "coffee-script": "1.3.3",
+    "less": "1.3.0",
+    "express": "3.0.0rc1",
+    "jade": "0.27.0"
   }
 }
