@@ -45,7 +45,7 @@ mongoose.connection.on('open', function (ref) {
   app.get('/loans', routes.loans);
 
   app.listen(3000, function(){
-    console.log("Express server listening on port 3000 in %s mode", app.settings.env);
+    console.log("Express server listening on http://localhost:3000 in %s mode", app.settings.env);
   });
 });
 
