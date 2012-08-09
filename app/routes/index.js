@@ -8,21 +8,7 @@
 */
 
 exports.hello = function(request,response){
-	
-	//This line defines the Http Header Response
-	//Esta linea define el encabezado de la respuesta HTTP
-	response.writeHead(200,{'Content-type':'text/plain'});
-	
-	//Send the message to the console
-	//Envia el mensaje a la consola
-	//console.log('Hello World\n to %s', response);
-	console.log("Hello World to %s",request.connection.remoteAddress);
-	
-	
-	//Send the message to the client
-	//Envia el mensaje al cliente
-	response.end('Hello World\n');
-	
+	response.render('layout.jade', {title: 'Hello World', content: 'Hello from Jade'});
 };
 
 //De aquí en adelante, la programación del Servicio

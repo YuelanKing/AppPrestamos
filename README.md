@@ -34,7 +34,7 @@ Todo lo referente al servicio se encuentra en este repositorio. **La documentaci
 
 Es cualquier interfaz mediante la cual una persona puede interactuar con el servicio. Algunos ejemplos serían una página web o una aplicación Android.
 
-El cliente web se encuentra en este repositorio, en la carpeta `app/assets/js`. Los clientes móviles se van a desarrollar de manera independiente y tendrán sus propios repositorios.
+El cliente web se encuentra en este repositorio, en la carpeta `app/ui`. Los clientes móviles se van a desarrollar de manera independiente y tendrán sus propios repositorios.
 
 En qué está hecho?
 ------------------
