@@ -64,10 +64,10 @@ Estos son los pasos a aseguir:
 - Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
 - Haz un Pull Request para integrar tus cambios a este repositorio
 
-Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Git-y-Github).
+Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Introducci%C3%B3n-a-Git-y-Github).
 
 ### Bug o Feature Request?
-Por favor añádelo en los [issues del repositorio] (https://github.com/Trisfera/AppPrestamos/issues?state=open).
+Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/AppPrestamos/issues?state=open).
 
 ### Duda, consulta, sugerencia?
 Contáctanos por [twitter](https://twitter.com/Trisfera) o únete a [nuestro grupo de Facebook](https://www.facebook.com/groups/trisfera/)
