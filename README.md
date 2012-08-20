@@ -30,14 +30,14 @@ Luego debes descargar el código, entrar a la carpeta del proyecto y correr:
 ```
 npm start
 ```
-Podrás acceder a la aplicación en la dirección http://localhost:3000/
+Podrás acceder a la aplicación en la dirección [http://localhost:3000](http://localhost:3000)
 
 Para correr las pruebas automatizadas, debes escribir este comando:
 ```
 npm test
 ```
 
-Y luego acceder a la dirección http://localhost:9292/
+Y luego acceder a la dirección [http://localhost:9292](http://localhost:9292)
 
 Quieres colaborar?
 ------------------
