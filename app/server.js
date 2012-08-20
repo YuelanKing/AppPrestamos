@@ -7,7 +7,7 @@ var express = require('express'),
 mongoose.connection.on('open', function (ref) {
   console.log('Connected to mongo server.');
 
-  var app = express.createServer();
+  var app = express();
   
   // Configuration
   app.configure(function(){
