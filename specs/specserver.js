@@ -15,5 +15,5 @@ app.get('/', function(request,response){
 });
 
 app.listen(9292, function(){
-  console.log("Express server listening on http://localhost:9292 in %s mode", app.settings.env);
+  console.log("Spec server running on http://localhost:9292");
 });

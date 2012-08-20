@@ -19,6 +19,42 @@ Además, como con todo proyecto de [Trisfera](http://trisfera.com), queremos apr
 - Escribir CSS utilizando [LESS](http://lesscss.org/)
 - Colaborar como comunidad para el desarrollo de un proyecto open source
 
+Quieres correr este proyecto en tu máquina?
+-------------------------------------------
+Primero debes:
+
+- [Instalar Node.js](https://github.com/Trisfera/Trisfera/wiki/Instalar-Node.js)
+- [Instalar MongoDB](https://github.com/Trisfera/Trisfera/wiki/Instalar-MongoDB)
+
+Luego debes descargar el código, entrar a la carpeta del proyecto y correr:
+```
+npm start
+```
+Podrás acceder a la aplicación en la dirección http://localhost:3000/
+
+Para correr las pruebas automatizadas, debes escribir este comando:
+```
+npm test
+```
+
+Y luego acceder a la dirección http://localhost:9292/
+
+Quieres colaborar?
+------------------
+Estos son los pasos a aseguir:
+
+- Haz un Fork
+- Clona el proyecto (que se encuentra en tu Fork) a tu máquina
+- Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
+- Haz un Pull Request para integrar tus cambios a este repositorio
+
+Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Introducci%C3%B3n-a-Git-y-Github).
+
+### Bug o Feature Request?
+Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/AppPrestamos/issues?state=open).
+
+### Duda, consulta, sugerencia?
+Contáctanos por [twitter](https://twitter.com/Trisfera) o únete a [nuestro grupo de Facebook](https://www.facebook.com/groups/trisfera/)
 
 Cómo está estructurada la aplicación?
 -------------------------------------
@@ -41,33 +77,3 @@ En qué está hecho?
 El servicio está siendo desarrollado con [Node.js](http://nodejs.org/) y [Express Framework](http://expressjs.com/). Además, usamos [MongoDB](http://www.mongodb.org/) como base de datos y [Mongoose](http://mongoosejs.com/) como nuestro ODM.
 
 El cliente web utiliza [Backbone.js](http://backbonejs.org/), pero escrito en [CoffeeScript](http://coffeescript.org/). Para escribir CSS se utiliza [LESS](http://lesscss.org/) y aún estamos considerando si utilizar o no una librería como [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
-
-Quieres correr este proyecto en tu máquina?
--------------------------------------------
-Primero debes:
-
-- [Instalar Node.js](https://github.com/Trisfera/Trisfera/wiki/Instalar-Node.js)
-- [Instalar MongoDB](https://github.com/Trisfera/Trisfera/wiki/Instalar-MongoDB)
-
-Luego debes descargar el código, entrar a la carpeta del proyecto y correr:
-```
-npm start
-```
-Podrás acceder a la aplicación en la dirección http://127.0.0.1:3000/
-
-Quieres colaborar?
-------------------
-Estos son los pasos a aseguir:
-
-- Haz un Fork
-- Clona el proyecto (que se encuentra en tu Fork) a tu máquina
-- Modifica/crea los archivos para realizar tu aporte y haz los commits a tu Fork
-- Haz un Pull Request para integrar tus cambios a este repositorio
-
-Para aprender a hacer todo lo anterior, puedes seguir [esta guía](https://github.com/Trisfera/Trisfera/wiki/Introducci%C3%B3n-a-Git-y-Github).
-
-### Bug o Feature Request?
-Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/AppPrestamos/issues?state=open).
-
-### Duda, consulta, sugerencia?
-Contáctanos por [twitter](https://twitter.com/Trisfera) o únete a [nuestro grupo de Facebook](https://www.facebook.com/groups/trisfera/)
