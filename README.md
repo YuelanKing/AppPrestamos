@@ -2,7 +2,7 @@ AppPrestamos
 ============
 Aplicación para el manejo y recordatorio de préstamos.
 
-Qué queremos lograr?
+¿Qué queremos lograr?
 --------------------
 ¿Te ha pasado que prestas plata y luego no consigues que te la paguen de vuelta? 
 
@@ -19,7 +19,7 @@ Además, como con todo proyecto de [Trisfera](http://trisfera.com), queremos apr
 - Escribir CSS utilizando [LESS](http://lesscss.org/)
 - Colaborar como comunidad para el desarrollo de un proyecto open source
 
-Quieres correr este proyecto en tu máquina?
+¿Quieres correr este proyecto en tu máquina?
 -------------------------------------------
 Primero debes:
 
@@ -39,7 +39,7 @@ npm test
 
 Y luego acceder a la dirección [http://localhost:9292](http://localhost:9292)
 
-Quieres colaborar?
+¿Quieres colaborar?
 ------------------
 Estos son los pasos a aseguir:
 
@@ -56,7 +56,7 @@ Por favor añádelo en los [issues del repositorio](https://github.com/Trisfera/
 ### Duda, consulta, sugerencia?
 Contáctanos por [twitter](https://twitter.com/Trisfera) o únete a [nuestro grupo de Facebook](https://www.facebook.com/groups/trisfera/)
 
-Cómo está estructurada la aplicación?
+¿Cómo está estructurada la aplicación?
 -------------------------------------
 La aplicación la vamos a dividir en dos secciones principales: el servicio y los clientes.
 
@@ -72,7 +72,7 @@ Es cualquier interfaz mediante la cual una persona puede interactuar con el serv
 
 El cliente web se encuentra en este repositorio, en la carpeta `app/ui`. Los clientes móviles se van a desarrollar de manera independiente y tendrán sus propios repositorios.
 
-En qué está hecho?
+¿En qué está hecho?
 ------------------
 El servicio está siendo desarrollado con [Node.js](http://nodejs.org/) y [Express Framework](http://expressjs.com/). Además, usamos [MongoDB](http://www.mongodb.org/) como base de datos y [Mongoose](http://mongoosejs.com/) como nuestro ODM.
 
