@@ -13,8 +13,11 @@
     "express": "3.0.0rc1",
     "jade": "0.27.0"
   },
+  "devDependencies": {
+    "nodemon": "0.26.0"
+  },
   "scripts": { 
-    "start": "node app/server.js",
+    "start": "nodemon --watch app app/server.js",
     "test": "coffee specs/specserver.coffee"
   }
 }
