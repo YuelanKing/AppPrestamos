@@ -8,30 +8,14 @@ html(lang="en")
     script(type='text/javascript', src='lib/jasmine/jasmine-html.js')
     script(type='text/javascript', src='lib/sinon.js')
     
-    // include source files here... 
+    // this line includes all app files using connect-assets 
     != js('dependencies')
     
-    // include spec files here... 
-    script(type='text/javascript', src='specs/collections/loans_collection_spec.js')
+    // include spec files here
+    script(type='text/coffeescript', src='specs/collections/loans_collection_spec.coffee')
 
-    script(type='text/javascript')
-      (function() {
-        var jasmineEnv = jasmine.getEnv();
-        jasmineEnv.updateInterval = 1000;
-        var htmlReporter = new jasmine.HtmlReporter();
-        jasmineEnv.addReporter(htmlReporter);
-        jasmineEnv.specFilter = function(spec) {
-          return htmlReporter.specFilter(spec);
-        };
-        var currentWindowOnload = window.onload;
-        window.onload = function() {
-          if (currentWindowOnload) {
-            currentWindowOnload();
-          }
-          execJasmine();
-        };
-        function execJasmine() {
-          jasmineEnv.execute();
-        }
-      })();
+    // run specs
+    script(type='text/coffeescript', src='lib/jasmine/run.coffee')
+    script(type='text/javascript', src='lib/coffee-script.js')
+
   body
