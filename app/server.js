@@ -35,16 +35,19 @@ mongoose.connection.on('open', function (ref) {
   app.get('/', routes.hello);
 
   //CREATE
-  app.post('/loan', routes.loans_create);
+  app.post('/1/loan', routes.loans_create);
 
   //READ
-  app.get('/loans/:id', routes.loans_read);
+  app.get('/1/loans/:id', routes.loans_read);
 
   //UPATE
-  app.put('/loans/:id', routes.loans_update);
+  app.put('/1/loans/:id', routes.loans_update);
+  
+  //DELETE
+  app.delete('/1/loans/:id', routes.loans_delete);
 
   //LIST LOANS
-  app.get('/loans', routes.loans);
+  app.get('/1/loans', routes.loans);
 
   app.listen(3000, function(){
     console.log("Express server listening on http://localhost:3000 in %s mode", app.settings.env);

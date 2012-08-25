@@ -34,12 +34,22 @@ exports.loans_read = function(request,response){
 
 exports.loans_update = function(request,response){
 	console.log('UPDATING LOAN');
-	//Update lines
+	fields = request.body;
+	fields.last_update = Date.now();
+	Loan.update({_id:request.params.id}, request.body, function(error, loan){
+		response.statusCode = 200;
+		response.setHeader('Content-Type','application/json');
+		response.send(loan);
+	});
 };
 
 exports.loans_delete = function(request,response){
 	console.log('DELETING LOAN');
-	//Delete lines
+	Loan.remove({_id:request.params.id}, request.body, function(error, loan){
+		response.statusCode = 200;
+		response.setHeader('Content-Type', 'application/json');
+		response.end();
+	});
 };
 
 exports.loans = function(request,response){
